@@ -140,14 +140,14 @@ string GDTConfigure::ParseConfFile(const string&filename,
 		}
 		int start_pos = 0, end_pos = line.size() - 1, pos;
 		if ((pos = line.find('#')) != -1) {
-			if (0 == pos) { // 行的第一个字符就是注释字符
+			if (0 == pos) {  //The first char is "#"
 				return "";
 			}
 			end_pos = pos - 1;
 		}
-		new_line = line.substr(start_pos, start_pos + 1 - end_pos); // 预处理，删除注释部分
+		new_line = line.substr(start_pos, start_pos + 1 - end_pos); // Preaction , delete the comment 
 		if ((pos = new_line.find('=')) == -1) {
-			return ""; // 没有=号
+			return ""; 
 		}
 		string na = new_line.substr(0, pos);
 		TrimSpace(na);
