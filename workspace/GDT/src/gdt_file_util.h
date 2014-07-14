@@ -16,7 +16,10 @@ using namespace std;
 
 */
 namespace gdt{
-      
+  
+    /*
+      Convenience wrappers around some commonly used system calls.
+    */  
       int open(const char* name, int flags, mode_t mode = 0666);
       int close(int fd);
       int dup(int fd);
