@@ -3,7 +3,7 @@ GDT
 
 General Data Transfer Framework for Autohome Inc. Tech.
 
-The Platform supports server and client data transmit, meanwhile is can be configured by client and server different attributions. More importantly, it can be used for monitoring the file changed and the file triggeraction,and then transfer or handle the add data. In addition, it supports Presend(recv), Dosend(recv), Postsend(recv) operations.
+The Framework supports server and client data transmit, meanwhile is can be configured by client and server different attributions. More importantly, it can be used for monitoring the file changed and the file triggeraction,and then transfer or handle the add data. In addition, it supports Presend(recv), Dosend(recv), Postsend(recv) operations.
 
 Dependencies
 
