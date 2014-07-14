@@ -8,9 +8,9 @@ If you have any questions, please contact us by pkukitty@gmail.com & sunshuai@au
 
 The Platform spports server and client data transfer, meanwhile is can be configured by client and server different attributions. More importantly, it can be used by monitor the file changed and the file triggeraction,and then transfer or handle the add data. On the other hand, it support Presend(recv), Dosend(recv), Postsend(recv) operations.
 
-The author is Yu Jun & Sun Shuai at Autohome Inc.
+The author is Yu Jun & Sun Shuai at Autohome Inc. 
 
-Thanks all
+Thanks all.
 
 2014.7.14
 
