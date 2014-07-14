@@ -7,6 +7,7 @@ The Platform supports server and client data transmit, meanwhile is can be confi
 
 Dependencies
 ————————————
+
 -boost (http://www.boost.org/)
 -yaml-cpp
 -additional platform specific dependencies:
