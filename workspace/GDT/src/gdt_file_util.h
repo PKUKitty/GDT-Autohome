@@ -8,6 +8,8 @@
 #ifndef GDT_FILE_UTIL_H_
 #define GDT_FILE_UTIL_H_
 
+#include <sys/types.h>
+
 #include "gdt_sys.h"
 using namespace std;
 
