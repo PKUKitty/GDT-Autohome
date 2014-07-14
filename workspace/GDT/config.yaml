@@ -1,0 +1,7 @@
+serviceName : test1
+role : RECEIVER #RECEIVER or SENDER
+ipAddress : 127.0.0.1
+port : 5566
+mode : ASYN # ASYN or SYN
+contentFilePath : test.txt
+changedAction : TRANSFER #TRANSFER or WRITEFILE
