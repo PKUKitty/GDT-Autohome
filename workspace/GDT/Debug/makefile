@@ -8,10 +8,10 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
--include src/transfer/subdir.mk
--include src/filemonitor/subdir.mk
--include src/subdir.mk
 -include subdir.mk
+-include src/transfer/subdir.mk
+-include src/subdir.mk
+-include src/filemonitor/subdir.mk
 -include objects.mk
 
 ifneq ($(MAKECMDGOALS),clean)
@@ -46,7 +46,7 @@ all: GDT
 GDT: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC C++ Linker'
-	g++ -L/usr/local/boost_1_55_0/bin.v2/libs -L/usr/lib -o "GDT" $(OBJS) $(USER_OBJS) $(LIBS)
+	g++ -L/usr/lib -L/usr/local/lib -o"GDT" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
